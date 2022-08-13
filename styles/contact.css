@@ -1,0 +1,94 @@
+/* PAGE - CONTACT */
+form {
+  margin-block: 40px;
+}
+
+form label,
+form legend {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.input--default {
+  display: block;
+  width: 100%;
+  padding: 10px 25px;
+  border: 1px solid #555555;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.horario select {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.button--submit {
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  border-radius: 5px;
+  background: #ffa500;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s all;
+}
+
+.botao-enviar:hover {
+  background: #ff8c00;
+}
+
+.table__container {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+thead {
+  background: #555555;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  padding: 8px 16px;
+}
+
+/* RESPONSIVIDADE */
+@media screen and (min-width: 1024px) {
+  /* PAGE - CONTACT */
+  .input--default {
+    width: 50%;
+  }
+
+  .horario select {
+    width: 50%;
+    padding: 10px 20px;
+  }
+
+  .button--submit {
+    width: 40%;
+  }
+
+  .botao-enviar:hover {
+    transform: scale(1.02);
+  }
+
+  .table__container {
+    justify-content: flex-start;
+  }
+}
